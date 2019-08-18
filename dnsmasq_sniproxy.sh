@@ -353,8 +353,8 @@ Install() {
     install_cleanup
     echo ""
     echo -e "${yellow}Dnsmasq + SNI Proxy 已完成安装！${plain}"
-    echo ""
-    echo -e "${yellow}服务器执行chattr -i /etc/resolv.conf && echo "nameserver $(get_ip) " > /etc/resolv.conf && chattr +i /etc/resolv.conf 即可解锁各类流媒体。${plain}"
+    echo -e "${yellow}服务器执行下面的命令后重启ssr后端即可解锁各类流媒体。${plain}"
+    echo -e "${yellow}chattr -i /etc/resolv.conf && echo ""nameserver $(get_ip)"" > /etc/resolv.conf && chattr +i /etc/resolv.conf${plain}"
     echo ""
 }
 
