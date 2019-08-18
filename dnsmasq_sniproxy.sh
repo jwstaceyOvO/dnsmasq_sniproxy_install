@@ -354,7 +354,7 @@ Install() {
     echo ""
     echo -e "${yellow}Dnsmasq + SNI Proxy 已完成安装！${plain}"
     echo ""
-    echo -e "${yellow}将您的DNS更改为 $(get_ip) 即可以观看Netflix节目了。${plain}"
+    echo -e "${yellow}服务器执行chattr -i /etc/resolv.conf && echo "nameserver $(get_ip) " > /etc/resolv.conf && chattr +i /etc/resolv.conf 即可解锁各类流媒体。${plain}"
     echo ""
 }
 
