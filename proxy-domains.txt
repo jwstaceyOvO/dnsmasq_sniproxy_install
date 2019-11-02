@@ -1,3 +1,8 @@
+googleapis.com
+googleadservices.com
+gstatic.com
+googlesyndication.com
+doubleclick.net
 flurry.com
 dazn.com
 app-adforce.jp
