@@ -1,9 +1,3 @@
-googleapis.com
-googleadservices.com
-gstatic.com
-googlesyndication.com
-doubleclick.net
-flurry.com
 dazn.com
 app-adforce.jp
 priconne-redive.jp
@@ -12,6 +6,8 @@ tvbweekly.com
 bigbigchannel.com.hk
 mytvsuper.com
 tvb.com
+flurry.com
+hinet.com
 hinet.net
 gamer.com.tw
 abema.tv
